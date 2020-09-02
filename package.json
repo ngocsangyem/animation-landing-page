@@ -1,0 +1,38 @@
+{
+	"name": "landing-page",
+	"version": "1.0.0",
+	"description": "small practice using GSAP",
+	"main": "main.js",
+	"scripts": {
+		"start": "parcel src/index.html --open",
+		"clean": "rm -rf dist/*",
+		"build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+		"build": "npm run clean && npm run build:parcel"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ngocsangyem/animation-landing-page.git"
+	},
+	"keywords": [
+		"HTML",
+		"Javascript",
+		"SCSS",
+		"SASS",
+		"CSS",
+		"Parcel",
+		"GSAP"
+	],
+	"author": "ngocsangyem",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ngocsangyem/animation-landing-page/issues"
+	},
+	"homepage": "https://github.com/ngocsangyem/animation-landing-page#readme",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.26.10"
+	},
+	"dependencies": {
+		"gsap": "^3.5.1"
+	}
+}
